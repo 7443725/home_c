@@ -2,6 +2,6 @@
 
 int main(void)                      // определяем функцию main
 {                                   // начало функции
-    printf("Hello METANIT.COM!\n"); // выводим строку на консоль
+    printf("Hello world!\n");       // выводим строку на консоль
     return 0;                       // выходим из функции
 }  
