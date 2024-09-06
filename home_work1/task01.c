@@ -1,19 +1,17 @@
 /*
- Комментарий
+ Задача 2: Вывести на экран  текст "лесенкой" 
+    Let's
+       go
+         to walk
  */
-//Комментарий
+//Коментарий
 #include <stdio.h>
-#include <locale.h>
 
 int main (int argc, char **argv)
 {
-    setlocale(LC_ALL, "Russian"/*"en_US.UTF-8"*/); //устанавливаем русскую локализацию (у меня только так заработал)
-    printf("Вычисление корней квадратного уравнения \\ \"a*x*x+b*x+c=0\" \n");
-    printf("Введите a: \n");
-    printf("Введите b: \n");
-    printf("Введите c:\n");
-    printf("Корни квадратного уравнения \n");
-    printf("X1 = \n");
-    printf("X2 = \n");
+    printf("  Let's\n");
+    printf("     go\n");
+    printf("       to walk\n");
+    //printf("  Let's\n     go\n       to walk\n");
     return 0;
 }
