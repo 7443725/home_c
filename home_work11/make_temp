@@ -1,0 +1,11 @@
+all: temp_api
+
+temp_api: temp_api.o 
+	gcc -o temp_api temp_api.o 
+
+temp_api.o: temp_api.c temp_api.h
+	gcc -c -o temp_api.o temp_api.c 
+
+clean:
+	del *.o
+	del temp_api.exe
